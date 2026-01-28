@@ -44,7 +44,20 @@ The model demonstrates how AI can be effectively used to optimize energy efficie
 ##  Author
 Druthi Varanasi
 
+##  How to Run the Project
+1. Install required libraries: pip install numpy pandas scikit-learn matplotlib
+2. Open the Jupyter Notebook:jupyter notebook energy_optimization_5g_ai.ipynb
+3. Run all cells sequentially
+
+##  Results
+The model demonstrates how AI can be effectively used to optimize energy efficiency in 5G networks while preserving network performance.
+
+##  Future Scope
+- Integration with real-time 5G network data
+- Use of deep learning models
+- Deployment in real-world network environments
+
+##  Author
+Druthi Varanasi
 
 
-## ▶️ How to Run the Project
-1. Install required libraries:
