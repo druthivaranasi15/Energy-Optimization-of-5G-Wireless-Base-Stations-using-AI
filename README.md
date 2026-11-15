@@ -1,63 +1,66 @@
 # Energy Optimization of 5G Using AI
 
-##  Project Overview
-This project focuses on optimizing energy consumption in 5G wireless networks using Artificial Intelligence (AI) and Machine Learning techniques.  
-The goal is to improve network efficiency while maintaining performance and quality of service.
+An exploratory machine-learning project focused on energy optimization in 5G wireless networks. The project includes a Jupyter notebook, a 5G energy-consumption dataset, and a system CPU log.
 
-##  Objectives
-- Reduce energy consumption in 5G networks
-- Apply AI/ML models for intelligent decision making
-- Analyze network parameters and optimize resource usage
+## Project contents
 
-##  Technologies Used
-- Python
-- Machine Learning
-- Artificial Intelligence
-- Jupyter Notebook
+| File | Description |
+|---|---|
+| [`Energy optimization of 5G using AI.ipynb`](Energy%20optimization%20of%205G%20using%20AI.ipynb) | Main notebook for the project’s analysis and implementation. |
+| [`5G_energy_consumption_dataset.csv/5G_energy_consumption_dataset.csv`](5G_energy_consumption_dataset.csv/5G_energy_consumption_dataset.csv) | Dataset file used for energy-consumption analysis. |
+| [`5G_energy_consumption_dataset.csv/system_log.txt`](5G_energy_consumption_dataset.csv/system_log.txt) | System CPU-usage log captured during a run; it is not a 5G network energy-measurement report. |
+
+> **Note:** The dataset is currently stored inside a directory named `5G_energy_consumption_dataset.csv`. Keep that directory structure when opening the dataset from the notebook, or update the notebook’s data path if you move the file.
+
+## Project goals
+
+- Explore the relationship between 5G network parameters and energy consumption.
+- Apply machine-learning techniques to support energy-efficiency analysis.
+- Investigate ways to reduce energy use while maintaining network performance.
+
+## Tools and libraries
+
+The project is implemented in Python using Jupyter Notebook. The existing project documentation lists these libraries:
+
 - NumPy
 - Pandas
-- Scikit-learn
+- scikit-learn
 - Matplotlib
 
-##  Project Files
-- `energy_optimization_5g_ai.ipynb` – Main Jupyter Notebook containing implementation and results
+## Getting started
 
-##  Methodology
-1. Data preprocessing and feature selection  
-2. Training machine learning models  
-3. Evaluating model performance  
-4. Applying AI-based optimization techniques to reduce energy usage
+### 1. Clone the repository
 
-##  How to Run the Project
-1. Install required libraries: pip install numpy pandas scikit-learn matplotlib
-2.  Open the Jupyter Notebook
-3.  Run all cells sequentially
+```bash
+git clone https://github.com/druthivaranasi15/Energy-Optimization-of-5G-Wireless-Base-Stations-using-AI.git
+cd Energy-Optimization-of-5G-Wireless-Base-Stations-using-AI
+```
 
-##  Results
-The model demonstrates how AI can be effectively used to optimize energy efficiency in 5G networks while preserving network performance.
+### 2. Install the dependencies
 
-##  Future Scope
-- Integration with real-time 5G network data
-- Use of deep learning models
-- Deployment in real-world network environments
+```bash
+python -m pip install jupyter numpy pandas scikit-learn matplotlib
+```
 
-##  Author
-Druthi Varanasi
+### 3. Open the notebook
 
-##  How to Run the Project
-1. Install required libraries: pip install numpy pandas scikit-learn matplotlib
-2. Open the Jupyter Notebook:jupyter notebook energy_optimization_5g_ai.ipynb
-3. Run all cells sequentially
+```bash
+jupyter notebook "Energy optimization of 5G using AI.ipynb"
+```
 
-##  Results
-The model demonstrates how AI can be effectively used to optimize energy efficiency in 5G networks while preserving network performance.
+Run the notebook cells in order. If a cell cannot find the dataset, check that the CSV remains at the path shown above and that the notebook uses that relative path.
 
-##  Future Scope
-- Integration with real-time 5G network data
-- Use of deep learning models
-- Deployment in real-world network environments
+## Results
 
-##  Author
-Druthi Varanasi
+The repository’s README does not currently document specific evaluation metrics or numerical energy savings. Run the notebook to inspect its outputs before drawing conclusions about model performance or the amount of energy saved.
 
+## Future work
 
+- Document the dataset’s features, source, and preprocessing steps.
+- Report evaluation metrics and quantify any observed energy savings.
+- Compare additional models or optimization approaches.
+- Explore validation with real-time or operational network data.
+
+## Author
+
+**Druthi Varanasi**
